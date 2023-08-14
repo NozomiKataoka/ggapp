@@ -5,27 +5,9 @@ import GachaMachine from './components/GachaMchine';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          なんだか疲れちゃった
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
          {/* 他のコンポーネントや要素 */}
       <GachaMachine />
       {/* 他のコンポーネントや要素 */}
-      </header>
     </div>
   );
 }
