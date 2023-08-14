@@ -1,0 +1,48 @@
+/* src/styles/gacha.css */
+.gacha-machine {
+    width: 300px;
+    height: 500px;
+    border: 3px solid #000;
+    position: relative;
+  }
+  
+  .gacha-button {
+    width: 100px;
+    height: 50px;
+    background-color: #f00;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .gacha-capsule {
+    width: 100px;
+    height: 150px;
+    border: 3px solid #000;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .item.common {
+    background-color: #ccc;
+  }
+  
+  .item.rare {
+    background-color: #ffd700;
+  }
+  
+  /* その他のレアリティに基づくスタイリングを追加することができます */
+  

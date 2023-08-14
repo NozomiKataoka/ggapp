@@ -1,0 +1,23 @@
+/* src/components/GachaMachine.module.css */
+
+.gacha-machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .gacha-result {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .gacha-result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .gacha-result p {
+    font-size: 20px;
+  }
+  

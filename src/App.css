@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+@import './styles/gacha.css';
