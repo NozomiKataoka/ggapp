@@ -1,8 +1,8 @@
 // src/components/GachaMachine.js
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
-import { GachaButton } from './GachaButton';
-import { GachaCapsule } from './GachaCapsule';
+import  GachaButton  from './GachaButton';
+import  GachaCapsule from './GachaCapsule';
 
 import styles from './GachaMachine.module.css';
 

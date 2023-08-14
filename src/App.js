@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import GachaMachine from './components/GachaMchine';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+
+         {/* 他のコンポーネントや要素 */}
+      <GachaMachine />
+      {/* 他のコンポーネントや要素 */}
       </header>
     </div>
   );
