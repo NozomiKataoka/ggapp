@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          なんだか疲れちゃった  c
+          なんだか疲れちゃった
         </p>
         <a
           className="App-link"
